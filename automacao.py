@@ -16,3 +16,9 @@ campo_login.send_keys(login)
 
 campo_senha = driver.find_element("xpath", "//input[@placeholder='Senha']")
 campo_senha.send_keys(senha)
+
+botao_buscar = driver.find_element("xpath", "//button[contains(., 'Buscar')]")
+
+botao_buscar.click()
+
+
